@@ -3,21 +3,25 @@
 This Python script scrapes radio station data from a website and saves it to a CSV file. It utilizes BeautifulSoup for web scraping and requests for making HTTP requests.
 Installation
 
-    Clone the repository to your local machine:
+Clone the repository to your local machine:
 
+```
 bash
 
 git clone <repository_url>
+```
+Navigate to the project directory:
 
-    Navigate to the project directory:
-
+```
 bash
 
 cd radio-data-scraper
+```
 
-    Install the required dependencies:
-
+Install the required dependencies:
+```
 pip install -r requirements.txt
+```
 
 <h2>Usage</h2>
 
