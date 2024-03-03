@@ -19,7 +19,7 @@ with open(csv_file, 'w', newline='', encoding='utf-8') as f:
 
         for anchor in anchors:
             href = anchor['href']
-            url1 = f'{url}{href}'
+            url1 = f'{base_url}{href}'
             final = requests.get(url1)
             soup1 = BeautifulSoup(final.text, 'html.parser')
             div1 = soup1.find('div', class_='main-content')
