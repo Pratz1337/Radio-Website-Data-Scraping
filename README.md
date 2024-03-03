@@ -1,4 +1,4 @@
-<h1>****Radio Data Scraper****</h1>
+<h1>Radio Data Scraper</h1>
 
 This Python script scrapes radio station data from a website and saves it to a CSV file. It utilizes BeautifulSoup for web scraping and requests for making HTTP requests.
 Installation
